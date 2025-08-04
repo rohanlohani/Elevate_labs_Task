@@ -42,12 +42,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### Fare Boxplot
 
-![Fare Boxplot](images/boxplotforfare.png)
-
 The boxplot shows that most fares are clustered near the median with some outliers at the higher end.
 
 ### Age Boxplot
-
-![Age Boxplot](images/boxplotforage.png)
 
 The age distribution is centered but has some outliers representing very young and elderly passengers.
