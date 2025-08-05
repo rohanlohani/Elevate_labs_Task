@@ -1,69 +1,84 @@
 Titanic Dataset - Exploratory Data Analysis (EDA)
-Overview
-This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to uncover patterns, trends, and relationships in the data. Using tools like Pandas, Matplotlib, and Seaborn, the analysis provides key statistical summaries and insightful visualizations that set the foundation for future machine learning or analytical tasks.
+Objective
+Perform EDA (Exploratory Data Analysis) on the Titanic dataset to understand its structure, distributions, and feature relationships using statistics and visualizations.
 
-Dataset
-Source: Titanic dataset (tested.csv)
+Tools Used
+Python
 
-Columns include:
-PassengerId, Survived, Pclass, Name, Sex, Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked
+Pandas
 
-Main Analysis Steps
-Summary Statistics:
-Calculated mean, median, min, max, and standard deviation for numerical features to understand central tendencies and variances.
+Matplotlib
 
-Histograms:
-Plotted for all numerical columns (Age, Fare, SibSp, Parch, etc.) to visualize distribution, skewness, and outliers.
+Seaborn
 
-Boxplots:
-Used to highlight medians, interquartile ranges, and outliers for each numeric variable, making it easy to spot unusual data points.
+Steps Performed
+Generated Summary Statistics:
+Used describe() to view mean, median, standard deviation, etc., for all numeric columns (Age, Fare, SibSp, Parch).
 
-Correlation Matrix & Heatmap:
-Computed correlations to detect linear relationships, especially between features and the target (Survived). Visualized with a heatmap for easier interpretation.
+Created Histograms and Boxplots:
+Visualized distributions and potential outliers for each numeric feature using histograms and boxplots.
 
-Pairplot:
-Created scatter and density plots for pairs of key features (Age, Fare, Pclass, Survived), colored by survival outcome, to assess feature interactions and class separation.
+Correlation Matrix and Pairplot:
 
-Key Insights
-Most passengers were in third class and traveled solo.
+Calculated correlation matrix to identify linear relationships between features.
 
-Young adults (20-40) were the largest age group aboard.
+Plotted a heatmap for visual insight into correlations.
 
-Majority paid low fares, but first-class paid much more and had higher survival rates.
+Used pairplot to examine feature relationships and survival outcome visually.
 
-Survival rate overall was below 50%.
+Analyzed Patterns, Trends, and Anomalies:
 
-Some features are skewed (Fare, family sizes), and outliers are present.
+Noted skewed distributions, outliers in fares and ages, class imbalances, and patterns in survival by class and fare.
 
-Running the Analysis
-Place the tested.csv file in your working directory or update the path in the script.
+Made Feature-Level Inferences:
 
-Run the code using:
+Higher-class and higher-fare passengers tended to have better survival rates.
 
-bash
-python titanic.py
-The script will output statistics to the console and display/save visualizations.
+Most passengers were young adults, third-class, and typically traveled alone.
 
-Requirements
-Python 3.x
+Family size features (SibSp, Parch) are heavily skewed toward zero.
 
-pandas
+Screenshots
+Visualizations included in this repo:
 
-matplotlib
+Histograms for all numeric columns
 
-seaborn
+Boxplots for all numeric columns
 
-Install requirements (if needed) with:
+Pairplot (scatter matrix) for selected features grouped by survival
 
-bash
+Correlation heatmap
+
+Structure
+text
+.
+├── titanic.py              # Python script for analysis
+├── tested.csv              # Titanic dataset
+├── screenshots/            # Folder with plot images (histograms, boxplots, etc.)
+└── README.md
+How To Run
+Make sure you have Python 3, Pandas, and Seaborn/Matplotlib installed.
+Install with:
+
+text
 pip install pandas matplotlib seaborn
-Visualization Outputs
-Histograms: Show distributions for each numeric feature.
+Place tested.csv and titanic.py in the same folder.
 
-Boxplots: Display medians, ranges, and outliers.
+Run:
 
-Pairplot: Visualizes relationships and survival clusters.
+text
+python titanic.py
+View the output plots/screenshots and review the inferences.
 
-Correlation Heatmap: Easily identifies feature relationships.
+What You'll Learn
+Data visualization and descriptive statistics for understanding datasets.
 
-This EDA equips you with knowledge about data quality, distributions, and preliminary relationships—vital for feature engineering or machine learning!
+How to spot patterns, trends, outliers, skewness, and correlations visually.
+
+How feature-level visual EDA supports the entire ML workflow.
+
+Submission
+All code, dataset, screenshots, and this README are included to document and justify findings.
+
+Please refer to the provided screenshots for key visual insight as required.
+
