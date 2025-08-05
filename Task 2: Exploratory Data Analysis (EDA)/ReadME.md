@@ -1,4 +1,4 @@
-###Task 2: Titanic Dataset - Exploratory Data Analysis (EDA)
+#Task 2: Titanic Dataset - Exploratory Data Analysis (EDA)
 Overview
 This project demonstrates Exploratory Data Analysis (EDA) on the Titanic dataset to understand its structure, feature distributions, and survival-related patterns using statistical and visual techniques.
 
