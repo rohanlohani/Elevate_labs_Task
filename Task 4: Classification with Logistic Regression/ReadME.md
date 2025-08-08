@@ -1,11 +1,11 @@
 # Logistic Regression on Breast Cancer Dataset
 
-## 📌 Objective
+## Objective
 Build a binary classifier using Logistic Regression on the Breast Cancer Wisconsin dataset to classify tumors as malignant or benign.
 
 ---
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 - Python
 - Pandas
 - Scikit-learn
@@ -14,13 +14,13 @@ Build a binary classifier using Logistic Regression on the Breast Cancer Wiscons
 
 ---
 
-## 📁 Dataset
+## Dataset
 - **Source:** [Scikit-learn Breast Cancer Dataset](https://scikit-learn.org/stable/datasets/toy_dataset.html#breast-cancer-dataset)
 - The dataset contains features computed from digitized images of breast mass and a diagnosis column (`M` for malignant, `B` for benign).
 
 ---
 
-## 📊 Steps Performed
+## Steps Performed
 1. **Data Preprocessing**
    - Encoded target variable (`M` → 1, `B` → 0)
    - Removed irrelevant columns
@@ -38,7 +38,7 @@ Build a binary classifier using Logistic Regression on the Breast Cancer Wiscons
 
 ---
 
-## 📈 Results
+## Results
 - **Accuracy:** ~97%
 - **Precision:** 97.6%
 - **Recall:** 95.3%
@@ -48,27 +48,27 @@ Build a binary classifier using Logistic Regression on the Breast Cancer Wiscons
 
 ---
 
-## 📷 Visualizations
+## Visualizations
 
-### 1. 📉 Sigmoid Function  
+### 1. Sigmoid Function  
 ![Sigmoid Function](images/sigmoid.png)  
 The sigmoid curve demonstrates how logistic regression maps any real-valued number into a probability between 0 and 1. It’s essential for understanding how predictions are interpreted in binary classification.
 
 ---
 
-### 2. 📈 ROC Curve  
+### 2. ROC Curve  
 ![ROC Curve](images/roc_curve.png)  
 The Receiver Operating Characteristic (ROC) curve shows the model's performance across all classification thresholds. An AUC of 1.00 indicates perfect classification ability, with a very high true positive rate and low false positive rate.
 
 ---
 
-### 3. 🧮 Confusion Matrix  
+### 3. Confusion Matrix  
 ![Confusion Matrix](images/confusion_matrix.png)  
 This heatmap shows that out of the predictions, 70 benign and 41 malignant tumors were correctly classified, while only 3 misclassifications occurred. It visually confirms the model's high accuracy.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 ```bash
 # Install dependencies
 pip install pandas scikit-learn matplotlib seaborn
