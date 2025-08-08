@@ -57,13 +57,13 @@ The sigmoid curve demonstrates how logistic regression maps any real-valued numb
 ---
 
 ### 2. ROC Curve  
-![ROC Curve](images/roc_curve.png)  
+![ROC Curve](roc_curve.png)  
 The Receiver Operating Characteristic (ROC) curve shows the model's performance across all classification thresholds. An AUC of 1.00 indicates perfect classification ability, with a very high true positive rate and low false positive rate.
 
 ---
 
 ### 3. Confusion Matrix  
-![Confusion Matrix](images/confusion_matrix.png)  
+![Confusion Matrix](confusion_matrix.png)  
 This heatmap shows that out of the predictions, 70 benign and 41 malignant tumors were correctly classified, while only 3 misclassifications occurred. It visually confirms the model's high accuracy.
 
 ---
