@@ -51,7 +51,7 @@ Build a binary classifier using Logistic Regression on the Breast Cancer Wiscons
 ## Visualizations
 
 ### 1. Sigmoid Function  
-![Sigmoid Function](images/sigmoid.png)  
+![Sigmoid Function](sigmoid.png)  
 The sigmoid curve demonstrates how logistic regression maps any real-valued number into a probability between 0 and 1. It’s essential for understanding how predictions are interpreted in binary classification.
 
 ---
