@@ -58,6 +58,3 @@ This visualization helps in identifying model accuracy and where predictions may
 - Visualizing model predictions
 - Interpreting linear regression coefficients
 
-## 📬 Submission
-
-Submit your GitHub repo link to the provided [submission form](https://forms.gle/8Gm83s53KbyXs3Ne9).
